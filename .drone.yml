@@ -5,7 +5,7 @@ pipeline:
   publish:
     image: plugins/docker
     repo: bitlogicos/demo-vote
-    file: vote/Dockerfile
+    context: vote/
     tag:
     - latest
     - "1.0.${DRONE_BUILD_NUMBER}"
