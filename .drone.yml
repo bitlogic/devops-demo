@@ -6,6 +6,7 @@ pipeline:
     image: plugins/docker
     repo: bitlogicos/demo-vote
     context: vote/
+    dockerfile: vote/Dockerfile
     tag:
     - latest
     - "1.0.${DRONE_BUILD_NUMBER}"
