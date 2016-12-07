@@ -2,7 +2,7 @@ workspace:
   base: /workspace
   path: src/github.com/bitlogic/devops-demo
 pipeline:
-  publish:
+  publish-vote:
     image: plugins/docker
     repo: bitlogicos/demo-vote
     context: vote/
