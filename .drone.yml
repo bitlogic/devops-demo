@@ -10,5 +10,3 @@ pipeline:
     tag:
     - latest
     - "1.0.${DRONE_BUILD_NUMBER}"
-
-
